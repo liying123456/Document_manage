@@ -3,8 +3,7 @@
     <el-container direction='vertical'>
         <app-header></app-header>
         <el-main>
-            主体
-            <!-- <router-view></router-view> -->
+            <router-view></router-view>
         </el-main>
         <app-footer></app-footer>
     </el-container>
