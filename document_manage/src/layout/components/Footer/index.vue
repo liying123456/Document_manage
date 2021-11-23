@@ -1,6 +1,6 @@
 <!-- 公共页脚组件 -->
 <template>
-    <el-footer>
+    <el-footer height="20px">
         联系李颖
     </el-footer>
 </template>

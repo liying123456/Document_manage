@@ -11,10 +11,15 @@ export default new Router({
       component: Layout,
       children: [
         { 
-          path: '/article/index',
+          path: 'index',
           name: 'Article',
           component: () => import('@/views/article/show-articlelist'),
-        }
+        },
+        {
+          path: "create", 
+          name: "CreateArticle",
+          component: () => import('@/views/article/create-article'),
+        },
       ],
   }
   ]
